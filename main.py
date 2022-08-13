@@ -11,5 +11,5 @@ while not valid_input:
         input("You must choose a number between 2 and 5, OK?")
 
 the_turtles = the_game.create_turtle(num_of_turtles)
-the_game.start_race(the_turtles, screen_width=800, screen_height=800)
+the_game.start_race(the_turtles, screen_width=1000, screen_height=1000)
 
