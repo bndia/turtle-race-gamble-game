@@ -53,5 +53,6 @@ def start_race(turtles, screen_width, screen_height):
         print("You won!!!")
     else:
         print("You lost.")
+    print(f"The winner is the {winner} turtle")
 
     screen.exitonclick()
